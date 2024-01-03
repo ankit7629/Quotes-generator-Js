@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.container{
+    width: 450px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+  color: blueviolet;
+  margin-bottom: 20px;
+}
+
+#content{
+    margin-bottom: 20px;
+   
+}
+
+button{
+    padding: 5px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    margin-top: 10px;
+}
